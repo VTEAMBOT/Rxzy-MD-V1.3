@@ -210,7 +210,7 @@ module.exports = arxzy = async (arxzy, m, msg, chatUpdate, store) => {
         const isAsu = body.startsWith(pric)
         const isCommand = isAsu ? body.replace(pric, '').trim().split(/ +/).shift().toLowerCase() : ""
         const sticker = []
-        const isAdrian = ('6289513081052@s.whatsapp.net').includes(m.sender)
+        const isAdrian = ('6285262556649@s.whatsapp.net').includes(m.sender)
         /* ~~~~~~~~~ GROUP SYSTEM ~~~~~~~~~ */
         const isGroup = m.key.remoteJid.endsWith('@g.us')
         const groupMetadata = m.isGroup ? await arxzy.groupMetadata(m.chat).catch(e => {}) : ''
