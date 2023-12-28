@@ -14,12 +14,12 @@ const chalk = require('chalk')
 global.lol = '-' // https://api.lolhuman.xyz
 global.xzn = '-' // https://xnz.wtf
 /* ~~~~~~~~~ SETTINGS OWNER ~~~~~~~~~ */
-global.numberowner = '-' // Owner Utama
-global.owner = ['-'] // Owner Lainnya
-global.namaowner = '-' // Nama Owner
-global.premium = ["-"] // Premium User
+global.numberowner = '6285262556649' // Owner Utama
+global.owner = ['6285262556649'] // Owner Lainnya
+global.namaowner = 'Xeberlhyn' // Nama Owner
+global.premium = ["6285262556649"] // Premium User
 /* ~~~~~~~~~ SETTINGS BOT ~~~~~~~~~ */
-global.namabot = 'Arxzy-MD' // NickBot
+global.namabot = '𝐕 𝐓 ΞΛ𝐌 ' // NickBot
 global.typemenu = 'v2' // 'v1' => 'v6'
 global.typereply = 'v1'
 global.autoread = false // ReadChat
